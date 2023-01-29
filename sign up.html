@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Account</title>
+    <link rel="shortcut icon" href="rc logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    input[type=text],
+    input[type=password] {
+        width: 96%;
+        padding: 4px;
+        margin: 2px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: transparent;
+        border-bottom: 2px solid black;
+    }
+    
+    input[type=text]:focus,
+    input[type=password]:focus {
+        outline: none;
+    }
+    
+    .container {
+        border: none;
+        border-radius: 20px;
+        margin-top: 150px;
+        width: 600px;
+        height: 580px;
+    }
+    
+    select {
+        padding: 5px;
+        padding-left: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    button {
+        border: none;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 200px;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @media screen and (max-width:580px) and (min-width:55px) {
+        nav .container-fluid h5 {
+            display: none;
+        }
+    }
+</style>
+
+<body style="background-color:  rgb(238, 237, 237);">
+    <!-- navbar -->
+    <nav class="navbar bg-warning position-fixed w-100" style="z-index: 3;">
+        <div class="container-fluid">
+            <img src="logo.png" class="w-25 h-50" alt="">
+            <h5 class="nav-item">If you get more benefits so signup and make your account</h5>
+        </div>
+    </nav><br><br>
+    <!-- content -->
+    <nav aria-label="breadcrumb" class="navbar">
+        <ol class="nav-item breadcrumb ms-5 mt-3 ">
+            <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none"> Home</a></li>
+            <li class="breadcrumb-item"> <a href="login.html" class="text-decoration-none">Login</a></li>
+            <li class="breadcrumb-item active">SignUp</li>
+        </ol>
+        </div>
+    </nav>
+    <form action="/action_page.php" class="" style="border: #ccc">
+        <div class="container bg-white shadow-lg  mb-5">
+            <h1 class="text-dark">Sign Up</h1>
+            <p class="text-dark">ITS EASY AND QUICK</p>
+            <hr>
+            <input type="text" required placeholder="FIRST NAME">
+            <input type="text" required placeholder="SIR NAME">
+            <input type="password" required placeholder="PHONE NUMBER OR EMAL">
+            <input type="password" required placeholder="NEW PASSWORD">
+            <p>DATE OF BIRTH ?</p>
+            <div class="d-flex">
+                <select class="form-select w-25 bg-warning" required name="month">
+                    <option value="JANUARY">JANUARY</option>
+                    <option value="FEBRUARY">FEBRUARY</option>
+                    <option value="MARCH">MARCH</option>
+                    <option value="APRIL">APRIL</option>
+                    <option value="MAY">MAY</option>
+                    <option value="JUNE">JUNE</option>
+                    <option value="JULY">JULY</option>
+                    <option value="AUGUST">AUGUST</option>
+                    <option value="SEPTEMBER">SEPTEMBER</option>
+                    <option value="OCTOBER">OCTOBER</option>
+                    <option value="NOVEMBER">NOVEMBER</option>
+                    <option value="DECEMBER">DECEMBER</option>
+                </select>
+                <select class="form-select w-25 bg-warning ml-3" required name="days">
+                    <option value="DAY">DAY</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="8">7</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="24">23</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select class="form-select w-25 bg-warning text-dark ml-3" required name="year">
+                    <option value="year">year</option>
+                    <hr>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select><br><br>
+            </div>
+            <p>GENDER ?</p>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label" for="male">MALE</label>
+                <input class="form-check-input" name="inlineRadioOptions" type="radio" placeholder="male">
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label" for="male">FEMALE</label>
+                <input class="form-check-input" name="inlineRadioOptions" type="radio" placeholder="male">
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label" for="male">OTHER</label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" placeholder="OTHER"><br>
+            </div>
+            <button class="btn btn-dark btn-outline-warning text-white border-dark">SIGN UP</button>
+        </div>
+    </form>
+</body>
+
+</html>

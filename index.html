@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Rheem</title>
+    <link rel="shortcut icon" href="rc logo.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+    @media screen and (max-width:711px) and (min-width:44px) {
+        #cf div h6,
+        #cf div p {
+            display: none;
+        }
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+    
+    .nav-item a:hover {
+        color: #ffc107;
+        border-radius: 15px;
+        background-color: white;
+        transition: 0.7s;
+    }
+    
+    a .bi-person:hover {
+        transition: 0.5s;
+    }
+    
+    #dropdown1 {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        text-decoration: none;
+    }
+    
+    #dropdown1:hover {
+        color: #ffc107;
+        border-radius: 15px;
+        background-color: white;
+        transition: 0.7s;
+    }
+    
+    .dropdown-menu .dropdown-item:hover {
+        background-color: #ffc107;
+        color: white;
+        transition: 0.7s;
+    }
+    
+    #faq:hover {
+        transition: 0.5s;
+    }
+    
+    .gimg :hover {
+        opacity: 0;
+    }
+    
+    .c :hover {
+        background-color: #ffc107;
+        transition: 1s;
+    }
+</style>
+
+<body class="" style="background-color: rgb(238, 237, 237);">
+    <!-- navbar -->
+    <header class="position-fixed w-100" style="z-index:3;">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <img src="logo.png" class="w-25 h-50" alt="">
+                <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class=" navbar-nav ms-5 ps-5 me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item  fw-bold ms-4"><a href="index.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="#gallery" class="nav-link">GALLERY</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="#store" class="nav-link">STORE</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="#blog" class="nav-link">BLOG</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="#about" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="#contact" class="nav-link">CONTACT</a></li>
+                    </ul>
+                    <div class="d-flex ms-5 ps-5">
+                        <a href="faq.html" class="nav-link"> <button id="faq" type="submit" class="btn nav-item btn-dark btn-md  btn-outline-light border-dark ">FAQ'S</button></a>
+                        <a href="login.html" class="nav-link ms-3">
+                            <button class=" bi bi-person btn btn-dark btn-md btn-outline-light border-dark nav-item"></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav><br>
+    </header>
+    <!-- homepage -->
+    <main>
+        <div>
+        </div><br><br>
+        <div class="" style="margin-top: 60px;">
+            <div class="text-center">
+                <img src="home.gif" class="rounded img-fluid w-75 " id="hb" alt="">
+            </div>
+            <div id="carouselExampleDark" class=" carousel carousel-dark slide rounded mx-auto d-block align-items-center img-fluid mt-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner  mx-auto rounded d-block">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="main.banner (2).png" class="d-block w-100 cs " alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="central air.png" class="d-block w-100 cs rounded mx-auto img-fluid">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="ductless banner.png" class="d-block w-100 cs rounded mx-auto d-block img-fluid">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="hybrid.png" class="d-block w-100 cs rounded mx-auto d-block img-fluid">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="floor mounted.png" class="d-block w-100 cs rounded mx-auto d-block img-fluid">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="casset ac.png" class="d-block w-100 cs rounded mx-auto d-block img-fluid">
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="7000">
+                        <img src="portable.png" class="d-block w-100 cs rounded mx-auto d-block img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery -->
+        <div id="gallery" class=" h-100 w-100 bg-white">
+            <h1 class="text-center fw-bold h1 display-1 pt-3 pt-5 text-uppercase">Gallery</h1>
+            <div class="text-center mt-5">
+                <img src="gallery.gif" class="rounded img-fluid w-75">
+            </div>
+            <div class=" ps-lg-5 mt-5">
+                <img src="gallery/ac3.jfif" class=" gimg w-25 h-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/cassette ac/3.jpg" class="w-25 mt-5 ms-5 img-fluid ">
+                <img src="gallery/6.jpg" class=" w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/5.jpg" class=" w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/ac1.png" class=" w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/4.jpg" class=" w-25  mt-5 ms-5 img-fluid">
+                <img src="gallery/11.jpg" class=" w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/10.jpg" class="w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/ac2.jpg" class=" w-25  mt-5 ms-5 img-fluid">
+                <img src="gallery/hybrif ac/6.jpg" class=" w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/12.jfif" class="w-25 mt-5 ms-5 img-fluid">
+                <img src="gallery/floor mounted ac/8ton.png" class=" w-25  mt-5 ms-5 img-fluid">
+            </div>
+        </div>
+        <!-- store -->
+        <div id="store" class="" style="background-color: rgb(238, 237, 237);;"><br>
+            <h1 class="text-center text-dark display-1 mt-5 fw-bold">STORE</h1>
+            <div class="text-center mt-5">
+                <img src="store.gif" class="rounded img-fluid w-75" alt="">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 me-0 mt-5 pb-5">
+                <a href="central air ac.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3  shadow">
+                            <img src="central air.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="text-dark">Central AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark  ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="Ductless Mini-Split AC.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3 shadow">
+                            <img src="ductless banner.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="text-dark">Mini-Split AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark  ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="floor mounted.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3 shadow">
+                            <img src="floor mounted.png" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="text-dark">Floor Mounted AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="portable ac.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3 shadow">
+                            <img src="portable.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="text-dark">Portable AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark  ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="hybrid ac.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3 shadow">
+                            <img src="hybrid.png" class="card-img-top" alt=";">
+                            <div class="card-body">
+                                <h5 class="text-dark">Hybrid AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark  ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="cassette ac.html" class="text-decoration-none">
+                    <div class="c col">
+                        <div class="card ms-3 shadow">
+                            <img src="casset ac.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="text-dark">Cassette AC</h5>
+                                <input type="button" value="Go to the Store" class="btn btn-light fw-bold btn-outline-dark  ">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- blog -->
+        <div class=" me-0 bg-white" id="blog">
+            <h1 class="text-center text-dark display-1 pt-5 fw-bold">BLOGS</h1>
+            <div class="text-center mt-5">
+                <img src="blogs.gif" class="rounded img-fluid w-75" alt="">
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 me-0 ms-1 mt-5 pb-5">
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="central air.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark"><a href="central air ac.html" class="text-decoration-none">Central AC</a></h5><br><br>
+                            <small class="text-muted fst-italic">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">A central air conditioner is a type of air conditioning system that cools and dehumidifies the air in a home or building. It consists of an indoor unit and an outdoor unit connected by refrigerant lines. The system is controlled
+                                by a thermostat and uses refrigerant to cool and dehumidify the air.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="ductless banner.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark"><a href="Ductless Mini-Split AC.html" class="text-decoration-none"> Ductless/Mini-Split AC</a></h5><br><br>
+                            <small class="text-muted fst-italic ">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">A ductless or mini-split air conditioner is a type of air conditioning system that does not require ducts to distribute cooled air throughout a home or building. It consists of an outdoor unit, which contains the compressor
+                                and condenser, and one or more indoor units, which house the evaporator.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="floor mounted.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark"><a href="floor mounted.html" class="text-decoration-none"> Floor Mounted</a></h5><br><br>
+                            <small class="text-muted fst-italic ">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">Floor mounted air conditioning units are a type of air conditioning system that is installed on the floor of a room or space. They typically have a rectangular or square shape and are designed to sit against a wall or in a
+                                corner. These units are self-contained, meaning that they have all of the necessary components contained within the unit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="hybrid.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="hybrid ac.html" class="text-decoration-none"> Hybrib AC</a></h5><br><br>
+                            <small class="text-muted fst-italic ">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">Hybrid air conditioning systems, also known as dual fuel systems, combine an electric air conditioner with a natural gas or propane furnace. These systems use the electric air conditioner during the warmer months and the furnace
+                                during the colder months, providing year-round comfort.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="casset ac.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="cassette ac.html" class="text-decoration-none"> Cassette AC</a></h5><br><br>
+                            <small class="text-muted fst-italic ">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">Cassette air conditioners are a type of air conditioning system that is designed to be installed in the ceiling of a room or space. They have a compact, square or rectangular shape and are typically installed in a suspended
+                                ceiling or an attic.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="portable.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="portable ac.html" class="text-decoration-none"> Portable AC</a></h5><br><br>
+                            <small class="text-muted fst-italic ">Rheem.1/06/2022</small>
+                            <p class="card-text text-black-50 fw-semibold mt-5">Portable air conditioners are a type of air conditioning system that can be easily moved from one room to another. They have a compact size and are typically designed with wheels for easy movement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div id="about" class="" style="background-color:  #ffca84;">
+            <h1 class="text-center display-1 fw-bold pt-5">ABOUT RHEEM</h1>
+            <div class="text-center mt-5">
+                <img src="about us.gif" class="rounded img-fluid w-75" alt="">
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-2 mt-5 ms-2 me-0 pb-5">
+                <img src="main.banner (2).png" class="w-50">
+                <div>
+                    <p class="mt-5 fs-6 text-black-50 lh-base fst-italic fw-semibold">Rheem is a leading company in the air conditioning industry, known for its high-quality and energy-efficient air conditioning systems. With a history dating back to the 1920s, Rheem has established itself as a trusted and reliable
+                        brand in the HVAC market. The company offers a wide range of air conditioners, including central AC units, ductless mini-splits, and hybrid systems. Rheem is committed to sustainability and innovation, with a focus on developing
+                        products that are environmentally friendly and that help customers save energy and money.</p>
+                    <a href="#store"> <button class="btn btn-dark btn-outline-warning  text-white  mt-3" style="transition: 0.8s; border: 1px solid  #ffca84;">Go to Parchase</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact" style="background-color:white">
+            <h1 class="display-1 fw-bold text-dark text-center pt-5">CONTACT US</h1>
+
+            <div class="me-0  mt-5">
+                <div class="text-center">
+                    <img src="contact.gif" class="rounded img-fluid w-75">
+                </div>
+            </div><br><br>
+            <div class="bg-white pb-5 me-0  g-2">
+                <div class="d-flex me-0">
+                    <iframe class="mt-5  pt-3 w-50 ms-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3848471182764!2d103.78844361571936!3d1.53592095834153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6c3f2a9ed699%3A0xa1382b5b5804b8e6!2sRheem%20Water%20Heaters!5e0!3m2!1sen!2s!4v1673739667661!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <form class="row g-3 bg-white me-0 mt-5 w-50 ms-3" id="form">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Full Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control " id="inputPassword4" placeholder="Email Address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Address" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Phone" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" id="" cols="168" class="form-control" placeholder="Comments here !" rows="10" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-warning border-0 btn-outline-dark btn-lg ">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="me-0 pb-5 d-flex ms-5 mt-4 " id="cf">
+                <div class="ms-5 ps-4">
+                    <h6 class="bi bi-geo-alt-fill text-center display-6 text-black-50"></h6>
+                    <p class="text-black-50 fw-semibold text-center"> 20A, Jalan Ros Merah 2/14, Johor Jaya, 81100 Johor Bahru, Johor, Malaysia </p>
+                </div>
+                <div class="ms-5 ps-5">
+                    <h6 class="bi bi-telephone-fill text-center display-6 text-black-50"></h6>
+                    <p class="text-black-50 fw-semibold text-center">8052785300</p>
+                </div>
+                <div class="ms-5 ps-5">
+                    <h6 class="bi bi-envelope-at-fill text-center display-6 text-black-50"></h6>
+                    <p class="text-black-50 fw-semibold text-center">store@rheemconnections.com</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for other Benifits</strong>
+                            </p>
+                        </div>
+
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example29" class="form-control" placeholder="Email address" />
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://www.rheem.com/">Rheem.com</a>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

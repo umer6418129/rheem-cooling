@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ductless AC</title>
+    <link rel="shortcut icon" href="rc logo.png">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<script>
+    $(document).ready(function() {
+        $("#search").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#section .card-group .card").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+    
+    .nav-item a:hover {
+        color: #ffc107;
+        border-radius: 15px;
+        background-color: white;
+        transition: 0.7s;
+    }
+    
+    a .bi-person:hover {
+        transition: 0.5s;
+    }
+    
+    #dropdown1 {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        text-decoration: none;
+    }
+    
+    #dropdown1:hover {
+        color: #ffc107;
+        border-radius: 15px;
+        background-color: white;
+        transition: 0.7s;
+    }
+    
+    .dropdown-menu .dropdown-item:hover {
+        background-color: #ffc107;
+        color: white;
+        transition: 0.7s;
+    }
+    
+    #faq:hover {
+        transition: 0.5s;
+    }
+    
+    .checked {
+        color: orange;
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <header class="position-fixed w-100" style="z-index:1;">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <img src="logo.png" class="w-25 h-50">
+                <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class=" navbar-nav ms-5 ps-5 me-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item fw-bold ms-4"><a href="index.html" class="nav-link">HOME</a></li>
+                        <div class="nav-item fw-bold dropdown">
+                            <a href="" id="" class="dropdown-toggle  nav-link ms-4" data-bs-toggle="dropdown" aria-expanded="false">STORE</a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="central air ac.html">Central Air AC</a>
+                                <a class="dropdown-item" href="Ductless Mini-Split AC.html">Ductless Mini-Split AC</a>
+                                <a class="dropdown-item" href="Portable AC.html">Portable AC</a>
+                                <a class="dropdown-item" href="floor mounted.html">Floor Mounted AC</a>
+                                <a class="dropdown-item" href="Hybrid AC.html">Hybrid AC</a>
+                                <a class="dropdown-item" href="cassette ac.html">Cassette AC</a>
+                            </ul>
+                        </div>
+                        <li class="nav-item fw-bold ms-4"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="blog.html" class="nav-link">BLOG</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="about.html" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item fw-bold ms-4"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                    </ul>
+                    <div class="d-flex ms-5 ps-5">
+                        <a href="faq.html" class="nav-link"> <button id="faq" type="submit" class="btn nav-item btn-dark btn-md  btn-outline-light border-dark ">FAQ'S</button></a>
+                        <a href="loggin.html" class="nav-link ms-3">
+                            <button class=" bi bi-person btn btn-dark btn-md btn-outline-light border-dark nav-item"></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav><br>
+    </header><br><br><br>
+    <!-- content -->
+    <main>
+        <nav aria-label="breadcrumb" class="navbar">
+            <ol class="nav-item breadcrumb ms-5 mt-3 ">
+                <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none"> Home</a></li>
+                <li class="breadcrumb-item"> Store</li>
+                <li class="breadcrumb-item active">Ductless Mini-Split AC</li>
+            </ol>
+            </div>
+        </nav>
+        <img src="menu imgs/ductless.gif" class="mt-5 rounded mx-auto img-fluid d-block w-75" alt="">
+        <h1 class="text-center mt-5 text-dark">CHOOSE YOUR FAVOURITE COLLECTION</h1>
+        <nav>
+            <form class="d-flex me-5" role="">
+                <input id="search" class="ms-5  form-control" style="outline: none;" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </nav>
+        <section id="section" class=" mt-5 pt-5 ms-5 pb-5">
+
+            <div class="card-group ">
+
+                <div class="card border-0">
+                    <a href="mini split c1.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/1.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MPC Mini-Split</h4>
+                        </a>
+                        <h6 class="card-title">Dave Lennox Signature®</h6>
+                        <p class="card-text text-black-50 fw-semibold">High-efficiency, variable-capacity, variable-speed mini-split heat pump</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="ms-3 fs-6 fw-semibold">1.0</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50">up to 13.2</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$200</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c1.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <a href="mini split c2.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/1.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MLB Mini-Split Heat Pump</h4>
+                        </a>
+                        <h6 class="card-title">Dave Lennox Signature®</h6>
+                        <p class="card-text text-black-50 fw-semibold">High-efficiency, variable-capacity, variable-speed mini-split heat pump effective even in extreme cold conditions</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star text-black-50 ms-3"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="ms-3 fs-6 fw-semibold">0.0</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 13.0</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$180</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c2.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0 mt-5">
+                    <a href="mini split c3.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/2.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MPB Mini-Split Heat Pump</h4>
+                        </a>
+                        <h6 class="card-title"> Elite® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Efficient heating and cooling ideal for add-on spaces</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-full" style="color: orange;"></span>
+                            <span class="ms-3 fs-6 fw-semibold">4.5</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 24.5</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$800</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c3.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card border-0">
+                    <a href="mini split c4.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/1.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MHB Mini-Split Heat Pump</h4>
+                        </a>
+                        <h6 class="card-title"> Elite® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Standard-efficiency, variable-capacity, variable-speed mini-split heat pump</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-empty checked"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="ms-3 fs-6 fw-semibold">2.5</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 21.0</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$300</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c4.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <a href="mini split c5.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/1.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MCB Mini-Split Air Conditioner</h4>
+                        </a>
+                        <h6 class="card-title"> Elite® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Standard-efficiency, variable-capacity, variable-speed mini-split air conditioner</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-full checked"></span>
+                            <span class="ms-3 fs-6 fw-semibold">4.5</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 17.4</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$550</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c5.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0 mt-5">
+                    <a href="mini split c6.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/3.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MLA Mini-Split Heat Pump</h4>
+                        </a>
+                        <h6 class="card-title"> Elite® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Outstanding cold-climate capabilities, operates in temperatures as low as -22°F</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-full checked"></span>
+                            <span class="ms-3 fs-6 fw-semibold">4.5</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 19.0</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$450</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c6.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card border-0">
+                    <a href="mini split c7.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/4.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MHA Mini-Split Heat Pump</h4>
+                        </a>
+                        <h6 class="card-title"> Elite® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Reliable, efficient heating and cooling for any room</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star text-black-50"></span>
+                            <span class="ms-3 fs-6 fw-semibold">4.0</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 19.0</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$450</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c7.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <a href="mini split c8.html" target="_blank"><img src="gallery/Ductless Mini-Split AC/4.png" class="card-img-top w-25 rounded mx-auto d-block" alt="..."></a>
+                    <div class="card-body">
+                        <a href="" class="text-decoration-none text-dark">
+                            <h4 class="card-title">MCA Mini-Split Air Conditioner</h4>
+                        </a>
+                        <h6 class="card-title"> Merit® Series</h6>
+                        <p class="card-text text-black-50 fw-semibold">Quiet, efficient cooling for any room</p>
+                    </div>
+                    <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item border-0">Rating: <span class="fa fa-star checked ms-3"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="ms-3 fs-6 fw-semibold">5.0</span>
+                        </li>
+                        <li class="list-group-item border-0">Efficiency Rating (SEER): <span class="ms-3 text-black-50 ">up to 20.0</span></li>
+                        <li class="list-group-item">Prize: <span class="ms-3">$650</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="mini split c8.html" target="_blank" class=" btn btn-outline-dark card-link">Go to parchase</a>
+                    </div>
+                </div>
+                <div class="card border-0">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for other Benifits</strong>
+                            </p>
+                        </div>
+
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example29" class="form-control" placeholder="Email address" />
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://www.rheem.com/">Rheem.com</a>
+        </div>
+
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
